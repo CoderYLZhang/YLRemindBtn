@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8496BF31C364FF70048B13E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496BF21C364FF70048B13E /* main.m */; };
+		B8496BF61C364FF70048B13E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496BF51C364FF70048B13E /* AppDelegate.m */; };
+		B8496BF91C364FF70048B13E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496BF81C364FF70048B13E /* ViewController.m */; };
+		B8496BFC1C364FF70048B13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8496BFA1C364FF70048B13E /* Main.storyboard */; };
+		B8496BFE1C364FF70048B13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8496BFD1C364FF70048B13E /* Assets.xcassets */; };
+		B8496C011C364FF70048B13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8496BFF1C364FF70048B13E /* LaunchScreen.storyboard */; };
+		B8496C0C1C364FF80048B13E /* YLRemindBtnLikeQQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496C0B1C364FF80048B13E /* YLRemindBtnLikeQQTests.m */; };
+		B8496C171C364FF80048B13E /* YLRemindBtnLikeQQUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496C161C364FF80048B13E /* YLRemindBtnLikeQQUITests.m */; };
+		B8496C261C36502F0048B13E /* YLRemindBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496C251C36502F0048B13E /* YLRemindBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8496C081C364FF80048B13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8496BE61C364FF70048B13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8496BED1C364FF70048B13E;
+			remoteInfo = YLRemindBtnLikeQQ;
+		};
+		B8496C131C364FF80048B13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8496BE61C364FF70048B13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8496BED1C364FF70048B13E;
+			remoteInfo = YLRemindBtnLikeQQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8496BEE1C364FF70048B13E /* YLRemindBtnLikeQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLRemindBtnLikeQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8496BF21C364FF70048B13E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8496BF41C364FF70048B13E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8496BF51C364FF70048B13E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8496BF71C364FF70048B13E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8496BF81C364FF70048B13E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8496BFB1C364FF70048B13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8496BFD1C364FF70048B13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8496C001C364FF70048B13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8496C021C364FF70048B13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8496C071C364FF80048B13E /* YLRemindBtnLikeQQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLRemindBtnLikeQQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8496C0B1C364FF80048B13E /* YLRemindBtnLikeQQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRemindBtnLikeQQTests.m; sourceTree = "<group>"; };
+		B8496C0D1C364FF80048B13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8496C121C364FF80048B13E /* YLRemindBtnLikeQQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLRemindBtnLikeQQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8496C161C364FF80048B13E /* YLRemindBtnLikeQQUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRemindBtnLikeQQUITests.m; sourceTree = "<group>"; };
+		B8496C181C364FF80048B13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8496C241C36502F0048B13E /* YLRemindBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRemindBtn.h; sourceTree = "<group>"; };
+		B8496C251C36502F0048B13E /* YLRemindBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRemindBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8496BEB1C364FF70048B13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8496C041C364FF80048B13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8496C0F1C364FF80048B13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8496BE51C364FF70048B13E = {
+			isa = PBXGroup;
+			children = (
+				B8496BF01C364FF70048B13E /* YLRemindBtnLikeQQ */,
+				B8496C0A1C364FF80048B13E /* YLRemindBtnLikeQQTests */,
+				B8496C151C364FF80048B13E /* YLRemindBtnLikeQQUITests */,
+				B8496BEF1C364FF70048B13E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8496BEF1C364FF70048B13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8496BEE1C364FF70048B13E /* YLRemindBtnLikeQQ.app */,
+				B8496C071C364FF80048B13E /* YLRemindBtnLikeQQTests.xctest */,
+				B8496C121C364FF80048B13E /* YLRemindBtnLikeQQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8496BF01C364FF70048B13E /* YLRemindBtnLikeQQ */ = {
+			isa = PBXGroup;
+			children = (
+				B8496BF41C364FF70048B13E /* AppDelegate.h */,
+				B8496BF51C364FF70048B13E /* AppDelegate.m */,
+				B8496BF71C364FF70048B13E /* ViewController.h */,
+				B8496BF81C364FF70048B13E /* ViewController.m */,
+				B8496BFA1C364FF70048B13E /* Main.storyboard */,
+				B8496C241C36502F0048B13E /* YLRemindBtn.h */,
+				B8496C251C36502F0048B13E /* YLRemindBtn.m */,
+				B8496BFD1C364FF70048B13E /* Assets.xcassets */,
+				B8496BFF1C364FF70048B13E /* LaunchScreen.storyboard */,
+				B8496C021C364FF70048B13E /* Info.plist */,
+				B8496BF11C364FF70048B13E /* Supporting Files */,
+			);
+			path = YLRemindBtnLikeQQ;
+			sourceTree = "<group>";
+		};
+		B8496BF11C364FF70048B13E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8496BF21C364FF70048B13E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8496C0A1C364FF80048B13E /* YLRemindBtnLikeQQTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8496C0B1C364FF80048B13E /* YLRemindBtnLikeQQTests.m */,
+				B8496C0D1C364FF80048B13E /* Info.plist */,
+			);
+			path = YLRemindBtnLikeQQTests;
+			sourceTree = "<group>";
+		};
+		B8496C151C364FF80048B13E /* YLRemindBtnLikeQQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8496C161C364FF80048B13E /* YLRemindBtnLikeQQUITests.m */,
+				B8496C181C364FF80048B13E /* Info.plist */,
+			);
+			path = YLRemindBtnLikeQQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8496BED1C364FF70048B13E /* YLRemindBtnLikeQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8496C1B1C364FF80048B13E /* Build configuration list for PBXNativeTarget "YLRemindBtnLikeQQ" */;
+			buildPhases = (
+				B8496BEA1C364FF70048B13E /* Sources */,
+				B8496BEB1C364FF70048B13E /* Frameworks */,
+				B8496BEC1C364FF70048B13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLRemindBtnLikeQQ;
+			productName = YLRemindBtnLikeQQ;
+			productReference = B8496BEE1C364FF70048B13E /* YLRemindBtnLikeQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8496C061C364FF80048B13E /* YLRemindBtnLikeQQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8496C1E1C364FF80048B13E /* Build configuration list for PBXNativeTarget "YLRemindBtnLikeQQTests" */;
+			buildPhases = (
+				B8496C031C364FF80048B13E /* Sources */,
+				B8496C041C364FF80048B13E /* Frameworks */,
+				B8496C051C364FF80048B13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8496C091C364FF80048B13E /* PBXTargetDependency */,
+			);
+			name = YLRemindBtnLikeQQTests;
+			productName = YLRemindBtnLikeQQTests;
+			productReference = B8496C071C364FF80048B13E /* YLRemindBtnLikeQQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8496C111C364FF80048B13E /* YLRemindBtnLikeQQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8496C211C364FF80048B13E /* Build configuration list for PBXNativeTarget "YLRemindBtnLikeQQUITests" */;
+			buildPhases = (
+				B8496C0E1C364FF80048B13E /* Sources */,
+				B8496C0F1C364FF80048B13E /* Frameworks */,
+				B8496C101C364FF80048B13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8496C141C364FF80048B13E /* PBXTargetDependency */,
+			);
+			name = YLRemindBtnLikeQQUITests;
+			productName = YLRemindBtnLikeQQUITests;
+			productReference = B8496C121C364FF80048B13E /* YLRemindBtnLikeQQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8496BE61C364FF70048B13E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "张银龙";
+				TargetAttributes = {
+					B8496BED1C364FF70048B13E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B8496C061C364FF80048B13E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B8496BED1C364FF70048B13E;
+					};
+					B8496C111C364FF80048B13E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B8496BED1C364FF70048B13E;
+					};
+				};
+			};
+			buildConfigurationList = B8496BE91C364FF70048B13E /* Build configuration list for PBXProject "YLRemindBtnLikeQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8496BE51C364FF70048B13E;
+			productRefGroup = B8496BEF1C364FF70048B13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8496BED1C364FF70048B13E /* YLRemindBtnLikeQQ */,
+				B8496C061C364FF80048B13E /* YLRemindBtnLikeQQTests */,
+				B8496C111C364FF80048B13E /* YLRemindBtnLikeQQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8496BEC1C364FF70048B13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8496C011C364FF70048B13E /* LaunchScreen.storyboard in Resources */,
+				B8496BFE1C364FF70048B13E /* Assets.xcassets in Resources */,
+				B8496BFC1C364FF70048B13E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8496C051C364FF80048B13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8496C101C364FF80048B13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8496BEA1C364FF70048B13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8496C261C36502F0048B13E /* YLRemindBtn.m in Sources */,
+				B8496BF91C364FF70048B13E /* ViewController.m in Sources */,
+				B8496BF61C364FF70048B13E /* AppDelegate.m in Sources */,
+				B8496BF31C364FF70048B13E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8496C031C364FF80048B13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8496C0C1C364FF80048B13E /* YLRemindBtnLikeQQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8496C0E1C364FF80048B13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8496C171C364FF80048B13E /* YLRemindBtnLikeQQUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8496C091C364FF80048B13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8496BED1C364FF70048B13E /* YLRemindBtnLikeQQ */;
+			targetProxy = B8496C081C364FF80048B13E /* PBXContainerItemProxy */;
+		};
+		B8496C141C364FF80048B13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8496BED1C364FF70048B13E /* YLRemindBtnLikeQQ */;
+			targetProxy = B8496C131C364FF80048B13E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8496BFA1C364FF70048B13E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8496BFB1C364FF70048B13E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8496BFF1C364FF70048B13E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8496C001C364FF70048B13E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8496C191C364FF80048B13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8496C1A1C364FF80048B13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8496C1C1C364FF80048B13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLRemindBtnLikeQQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangyinlong.YLRemindBtnLikeQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8496C1D1C364FF80048B13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLRemindBtnLikeQQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangyinlong.YLRemindBtnLikeQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8496C1F1C364FF80048B13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLRemindBtnLikeQQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangyinlong.YLRemindBtnLikeQQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLRemindBtnLikeQQ.app/YLRemindBtnLikeQQ";
+			};
+			name = Debug;
+		};
+		B8496C201C364FF80048B13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLRemindBtnLikeQQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangyinlong.YLRemindBtnLikeQQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLRemindBtnLikeQQ.app/YLRemindBtnLikeQQ";
+			};
+			name = Release;
+		};
+		B8496C221C364FF80048B13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLRemindBtnLikeQQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangyinlong.YLRemindBtnLikeQQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLRemindBtnLikeQQ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B8496C231C364FF80048B13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLRemindBtnLikeQQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangyinlong.YLRemindBtnLikeQQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLRemindBtnLikeQQ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8496BE91C364FF70048B13E /* Build configuration list for PBXProject "YLRemindBtnLikeQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8496C191C364FF80048B13E /* Debug */,
+				B8496C1A1C364FF80048B13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8496C1B1C364FF80048B13E /* Build configuration list for PBXNativeTarget "YLRemindBtnLikeQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8496C1C1C364FF80048B13E /* Debug */,
+				B8496C1D1C364FF80048B13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8496C1E1C364FF80048B13E /* Build configuration list for PBXNativeTarget "YLRemindBtnLikeQQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8496C1F1C364FF80048B13E /* Debug */,
+				B8496C201C364FF80048B13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8496C211C364FF80048B13E /* Build configuration list for PBXNativeTarget "YLRemindBtnLikeQQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8496C221C364FF80048B13E /* Debug */,
+				B8496C231C364FF80048B13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8496BE61C364FF70048B13E /* Project object */;
+}
