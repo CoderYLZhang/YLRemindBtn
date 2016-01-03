@@ -15,7 +15,7 @@
 		B8496C011C364FF70048B13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8496BFF1C364FF70048B13E /* LaunchScreen.storyboard */; };
 		B8496C0C1C364FF80048B13E /* YLRemindBtnLikeQQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496C0B1C364FF80048B13E /* YLRemindBtnLikeQQTests.m */; };
 		B8496C171C364FF80048B13E /* YLRemindBtnLikeQQUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496C161C364FF80048B13E /* YLRemindBtnLikeQQUITests.m */; };
-		B8496C261C36502F0048B13E /* YLRemindBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B8496C251C36502F0048B13E /* YLRemindBtn.m */; };
+		B8547E321C38BE860096CC78 /* YLRemindBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B8547E311C38BE860096CC78 /* YLRemindBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		B8496C121C364FF80048B13E /* YLRemindBtnLikeQQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLRemindBtnLikeQQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8496C161C364FF80048B13E /* YLRemindBtnLikeQQUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRemindBtnLikeQQUITests.m; sourceTree = "<group>"; };
 		B8496C181C364FF80048B13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8496C241C36502F0048B13E /* YLRemindBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRemindBtn.h; sourceTree = "<group>"; };
-		B8496C251C36502F0048B13E /* YLRemindBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRemindBtn.m; sourceTree = "<group>"; };
+		B8547E301C38BE860096CC78 /* YLRemindBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRemindBtn.h; sourceTree = "<group>"; };
+		B8547E311C38BE860096CC78 /* YLRemindBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRemindBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +104,12 @@
 		B8496BF01C364FF70048B13E /* YLRemindBtnLikeQQ */ = {
 			isa = PBXGroup;
 			children = (
+				B8547E2F1C38BE860096CC78 /* YLRemindBtn */,
 				B8496BF41C364FF70048B13E /* AppDelegate.h */,
 				B8496BF51C364FF70048B13E /* AppDelegate.m */,
 				B8496BF71C364FF70048B13E /* ViewController.h */,
 				B8496BF81C364FF70048B13E /* ViewController.m */,
 				B8496BFA1C364FF70048B13E /* Main.storyboard */,
-				B8496C241C36502F0048B13E /* YLRemindBtn.h */,
-				B8496C251C36502F0048B13E /* YLRemindBtn.m */,
 				B8496BFD1C364FF70048B13E /* Assets.xcassets */,
 				B8496BFF1C364FF70048B13E /* LaunchScreen.storyboard */,
 				B8496C021C364FF70048B13E /* Info.plist */,
@@ -143,6 +142,15 @@
 				B8496C181C364FF80048B13E /* Info.plist */,
 			);
 			path = YLRemindBtnLikeQQUITests;
+			sourceTree = "<group>";
+		};
+		B8547E2F1C38BE860096CC78 /* YLRemindBtn */ = {
+			isa = PBXGroup;
+			children = (
+				B8547E301C38BE860096CC78 /* YLRemindBtn.h */,
+				B8547E311C38BE860096CC78 /* YLRemindBtn.m */,
+			);
+			path = YLRemindBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8496C261C36502F0048B13E /* YLRemindBtn.m in Sources */,
 				B8496BF91C364FF70048B13E /* ViewController.m in Sources */,
 				B8496BF61C364FF70048B13E /* AppDelegate.m in Sources */,
 				B8496BF31C364FF70048B13E /* main.m in Sources */,
+				B8547E321C38BE860096CC78 /* YLRemindBtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
